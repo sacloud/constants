@@ -72,11 +72,6 @@ ts: json
 #	@go run tools/sacloud-constants-generator/main.go ts > nodejs/constants.ts
 #
 
-.PHONY: publish_npm
-publish_npm:
-	cd ${PACKDIR}/nodejs/bin && \
-	npm publish --access public
-
 .PHONY: goimports
 goimports: fmt
 	@goimports -l -w .

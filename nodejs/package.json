@@ -1,0 +1,23 @@
+{
+    "name": "@sacloud/constants",
+    "version": "${VERSION}",
+    "description": "A definition of constants for SAKURA Cloud",
+    "keywords": [
+        "sakuracloud"
+    ],
+    "homepage": "https://github.com/sacloud/constants",
+    "repository": "https://github.com/sacloud/constants",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "typescript": "^3.8.2"
+    },
+    "devDependencies": {
+        "@types/node": "^8.0.25"
+    },
+    "author": "The sacloud/constants authors",
+    "main": "constants.js",
+    "private": false
+}

@@ -1,0 +1,3396 @@
+{
+  "Archive": {
+    "OSTypeQueries": {
+      "CentOS": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-centos"
+            ]
+          ]
+        }
+      ],
+      "CentOS6": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "centos-6-latest"
+            ]
+          ]
+        }
+      ],
+      "CentOS7": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "centos-7-latest"
+            ]
+          ]
+        }
+      ],
+      "CentOS8": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "centos-8-latest"
+            ]
+          ]
+        }
+      ],
+      "CoreOS": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-coreos"
+            ]
+          ]
+        }
+      ],
+      "Debian": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-debian"
+            ]
+          ]
+        }
+      ],
+      "Debian10": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "debian-10-latest"
+            ]
+          ]
+        }
+      ],
+      "Debian9": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "debian-9-latest"
+            ]
+          ]
+        }
+      ],
+      "FreeBSD": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-freebsd"
+            ]
+          ]
+        }
+      ],
+      "K3OS": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-k3os"
+            ]
+          ]
+        }
+      ],
+      "Kusanagi": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "pkg-kusanagi"
+            ]
+          ]
+        }
+      ],
+      "RancherOS": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-rancheros"
+            ]
+          ]
+        }
+      ],
+      "Ubuntu": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-ubuntu"
+            ]
+          ]
+        }
+      ],
+      "Ubuntu1604": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "ubuntu-16.04-latest"
+            ]
+          ]
+        }
+      ],
+      "Ubuntu1804": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "ubuntu-18.04-latest"
+            ]
+          ]
+        }
+      ],
+      "Windows2016": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20Datacenter%20Edition"
+          ]
+        }
+      ],
+      "Windows2016RDS": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-rds"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20RDS"
+          ]
+        }
+      ],
+      "Windows2016RDSOffice": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20RDS%28MS%20Office%E4%BB%98%29"
+          ]
+        }
+      ],
+      "Windows2016SQLServer2017Enterprise": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-enterprise"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Enterprise%29"
+          ]
+        }
+      ],
+      "Windows2016SQLServer2017Standard": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-standard"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Standard%29"
+          ]
+        }
+      ],
+      "Windows2016SQLServer2017StandardAll": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-standard",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        }
+      ],
+      "Windows2016SQLServerStandard": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2016",
+              "edition-standard"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Standard%29"
+          ]
+        }
+      ],
+      "Windows2016SQLServerStandardAll": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        },
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2016",
+              "edition-standard",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        }
+      ],
+      "Windows2016SQLServerWeb": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2016",
+              "windows-sqlserver",
+              "sqlserver-2016",
+              "edition-web"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Web%29"
+          ]
+        }
+      ],
+      "Windows2019": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20Datacenter%20Edition"
+          ]
+        }
+      ],
+      "Windows2019RDS": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20RDS"
+          ]
+        },
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-rds"
+            ]
+          ]
+        }
+      ],
+      "Windows2019RDSOffice2016": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20RDS%28MS%20Office%E4%BB%98%29"
+          ]
+        }
+      ],
+      "Windows2019RDSOffice2019": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20RDS%28MS%20Office2019%E4%BB%98%29"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2017Enterprise": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-enterprise"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Enterprise%29"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2017Standard": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-standard"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Standard%29"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2017StandardAll": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-standard",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2017Web": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
+          ]
+        },
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2017",
+              "edition-web"
+            ]
+          ]
+        }
+      ],
+      "Windows2019SQLServer2019Enterprise": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2019",
+              "edition-enterprise"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Enterprise%29"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2019Standard": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2019",
+              "edition-standard"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Standard%29"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2019StandardAll": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2019",
+              "edition-standard",
+              "windows-rds",
+              "with-office"
+            ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        }
+      ],
+      "Windows2019SQLServer2019Web": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Web%29"
+          ]
+        },
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "os-windows",
+              "distro-ver-2019",
+              "windows-sqlserver",
+              "sqlserver-2019",
+              "edition-web"
+            ]
+          ]
+        }
+      ]
+    },
+    "OSTypes": {
+      "CentOS": "centos",
+      "CentOS6": "centos6",
+      "CentOS7": "centos7",
+      "CentOS8": "centos8",
+      "CoreOS": "coreos",
+      "Debian": "debian",
+      "Debian10": "debian10",
+      "Debian9": "debian9",
+      "FreeBSD": "freebsd",
+      "K3OS": "k3os",
+      "Kusanagi": "kusanagi",
+      "RancherOS": "rancheros",
+      "Ubuntu": "ubuntu",
+      "Ubuntu1604": "ubuntu1604",
+      "Ubuntu1804": "ubuntu1804",
+      "Windows2016": "windows2016",
+      "Windows2016RDS": "windows2016-rds",
+      "Windows2016RDSOffice": "windows2016-rds-office",
+      "Windows2016SQLServer2017Enterprise": "windows2016-sql2017-enterprise",
+      "Windows2016SQLServer2017Standard": "windows2016-sql2017-standard",
+      "Windows2016SQLServer2017StandardAll": "windows2016-sql2017-standard-all",
+      "Windows2016SQLServerStandard": "windows2016-sql-standard",
+      "Windows2016SQLServerStandardAll": "windows2016-sql-standard-all",
+      "Windows2016SQLServerWeb": "windows2016-sql-web",
+      "Windows2019": "windows2019",
+      "Windows2019RDS": "windows2019-rds",
+      "Windows2019RDSOffice2016": "windows2019-rds-office2016",
+      "Windows2019RDSOffice2019": "windows2019-rds-office2019",
+      "Windows2019SQLServer2017Enterprise": "windows2019-sql2017-enterprise",
+      "Windows2019SQLServer2017Standard": "windows2019-sql2017-standard",
+      "Windows2019SQLServer2017StandardAll": "windows2019-sql2017-standard-all",
+      "Windows2019SQLServer2017Web": "windows2019-sql2017-web",
+      "Windows2019SQLServer2019Enterprise": "windows2019-sql2019-enterprise",
+      "Windows2019SQLServer2019Standard": "windows2019-sql2019-standard",
+      "Windows2019SQLServer2019StandardAll": "windows2019-sql2019-standard-all",
+      "Windows2019SQLServer2019Web": "windows2019-sql2019-web"
+    },
+    "Sizes": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      250,
+      500,
+      750,
+      1024
+    ]
+  },
+  "Auth": {
+    "Classes": {
+      "Unknown": "",
+      "Account": "account"
+    },
+    "Methods": {
+      "Unknown": "",
+      "APIKey": "apikey"
+    },
+    "Penalties": {
+      "Unknown": "",
+      "None": "none"
+    },
+    "Permissions": {
+      "Unknown": "",
+      "Create": "create",
+      "Arrange": "arrange",
+      "Power": "power",
+      "View": "view"
+    }
+  },
+  "Backup": {
+    "SpanTypes": {
+      "Weekdays": "weekdays"
+    },
+    "Weekdays": {
+      "Sunday": "sun",
+      "Monday": "mon",
+      "Tuesday": "tue",
+      "Wednesday": "wed",
+      "Thursday": "thu",
+      "Friday": "fri",
+      "Saturday": "sat"
+    }
+  },
+  "Common": {
+    "APIRoot": "https://secure.sakura.ad.jp/cloud/zone",
+    "APISecretEnvKey": "SAKURACLOUD_ACCESS_TOKEN_SECRET",
+    "APITokenEnvKey": "SAKURACLOUD_ACCESS_TOKEN",
+    "Availabilities": {
+      "Unknown": "",
+      "Available": "available",
+      "Uploading": "uploading",
+      "Failed": "failed",
+      "Migrating": "migrating",
+      "Transferring": "transfering",
+      "Discontinued": "discontinued"
+    },
+    "InstanceStatus": {
+      "Unknown": "",
+      "Up": "up",
+      "Cleaning": "cleaning",
+      "Down": "down"
+    },
+    "Scopes": {
+      "Shared": "shared",
+      "User": "user"
+    }
+  },
+  "ContainerRegistry": {
+    "AccessLevel": {
+      "ReadWrite": "readwrite",
+      "ReadOnly": "readonly",
+      "None": "none"
+    },
+    "Permissions": {
+      "All": "all",
+      "ReadWrite": "readwrite",
+      "ReadOnly": "readonly"
+    }
+  },
+  "DNS": {
+    "RecordTypes": {
+      "A": "A",
+      "AAAA": "AAAA",
+      "ALIAS": "ALIAS",
+      "CNAME": "CNAME",
+      "NS": "NS",
+      "MX": "MX",
+      "TXT": "TXT",
+      "SRV": "SRV",
+      "CAA": "CAA",
+      "PTR": "PTR"
+    }
+  },
+  "Database": {
+    "PlanNames": {
+      "10": "10g",
+      "1000": "1t",
+      "240": "240g",
+      "30": "30g",
+      "500": "500g",
+      "90": "90g"
+    },
+    "Plans": {
+      "DB10GB": 10,
+      "DB30GB": 30,
+      "DB90GB": 90,
+      "DB240GB": 240,
+      "DB500GB": 500,
+      "DB1TB": 1000
+    },
+    "ReplicationModels": {
+      "MasterSlave": "Master-Slave",
+      "AsyncReplica": "Async-Replica"
+    },
+    "Types": {
+      "MariaDB": "MariaDB",
+      "PostgreSQL": "postgres"
+    },
+    "Versions": [
+      {
+        "Name": "postgres",
+        "Version": "12",
+        "Revision": ""
+      },
+      {
+        "Name": "MariaDB",
+        "Version": "10.3",
+        "Revision": "10.3.15"
+      }
+    ]
+  },
+  "Disk": {
+    "Connections": {
+      "VirtIO": "virtio",
+      "IDE": "ide"
+    },
+    "PlanNames": {
+      "2": "hdd",
+      "4": "ssd"
+    },
+    "Plans": {
+      "SSD": 4,
+      "HDD": 2
+    },
+    "Sizes": [
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "SizeMB": 20480,
+        "SizeGB": 20,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 60,
+        "DisplaySuffix": "GB",
+        "SizeMB": 61440,
+        "SizeGB": 60,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 80,
+        "DisplaySuffix": "GB",
+        "SizeMB": 81920,
+        "SizeGB": 80,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 750,
+        "DisplaySuffix": "GB",
+        "SizeMB": 768000,
+        "SizeGB": 750,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "SizeMB": 20480,
+        "SizeGB": 20,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 60,
+        "DisplaySuffix": "GB",
+        "SizeMB": 61440,
+        "SizeGB": 60,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 80,
+        "DisplaySuffix": "GB",
+        "SizeMB": 81920,
+        "SizeGB": 80,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 750,
+        "DisplaySuffix": "GB",
+        "SizeMB": 768000,
+        "SizeGB": 750,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "is1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "SizeMB": 20480,
+        "SizeGB": 20,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 60,
+        "DisplaySuffix": "GB",
+        "SizeMB": 61440,
+        "SizeGB": 60,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 80,
+        "DisplaySuffix": "GB",
+        "SizeMB": 81920,
+        "SizeGB": 80,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 750,
+        "DisplaySuffix": "GB",
+        "SizeMB": 768000,
+        "SizeGB": 750,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "is1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "SizeMB": 20480,
+        "SizeGB": 20,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 60,
+        "DisplaySuffix": "GB",
+        "SizeMB": 61440,
+        "SizeGB": 60,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 80,
+        "DisplaySuffix": "GB",
+        "SizeMB": 81920,
+        "SizeGB": 80,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 750,
+        "DisplaySuffix": "GB",
+        "SizeMB": 768000,
+        "SizeGB": 750,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1v"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1v"
+      }
+    ]
+  },
+  "GSLB": {
+    "HealthCheckProtocols": {
+      "HTTP": "http",
+      "HTTPS": "https",
+      "TCP": "tcp",
+      "Ping": "ping"
+    }
+  },
+  "Internet": {
+    "BandWidths": [
+      100,
+      250,
+      500,
+      1000,
+      1500,
+      2000,
+      2500,
+      3000,
+      5000
+    ]
+  },
+  "LoadBalancer": {
+    "HealthCheckProtocols": {
+      "HTTP": "http",
+      "HTTPS": "https",
+      "TCP": "tcp",
+      "Ping": "ping"
+    },
+    "PlanNames": {
+      "1": "standard",
+      "2": "highspec"
+    },
+    "Plans": {
+      "Standard": 1,
+      "HighSpec": 2
+    }
+  },
+  "Meta": {
+    "Version": "2.1.2"
+  },
+  "NFS": {
+    "PlanNames": {
+      "1": "hdd",
+      "2": "ssd"
+    },
+    "Plans": {
+      "HDD": 1,
+      "SSD": 2
+    },
+    "Sizes": [
+      {
+        "PlanID": 1,
+        "Size": 100
+      },
+      {
+        "PlanID": 1,
+        "Size": 500
+      },
+      {
+        "PlanID": 1,
+        "Size": 1024
+      },
+      {
+        "PlanID": 1,
+        "Size": 2048
+      },
+      {
+        "PlanID": 1,
+        "Size": 4096
+      },
+      {
+        "PlanID": 1,
+        "Size": 8192
+      },
+      {
+        "PlanID": 2,
+        "Size": 20
+      },
+      {
+        "PlanID": 2,
+        "Size": 100
+      },
+      {
+        "PlanID": 2,
+        "Size": 500
+      },
+      {
+        "PlanID": 2,
+        "Size": 1024
+      },
+      {
+        "PlanID": 2,
+        "Size": 2048
+      },
+      {
+        "PlanID": 2,
+        "Size": 4096
+      }
+    ]
+  },
+  "Note": {
+    "Classes": [
+      "shell",
+      "yaml_cloud_config"
+    ]
+  },
+  "PacketFilter": {
+    "Actions": {
+      "Allow": "allow",
+      "Deny": "deny"
+    },
+    "Protocols": {
+      "HTTP": "http",
+      "HTTPS": "https",
+      "TCP": "tcp",
+      "UDP": "udp",
+      "ICMP": "icmp",
+      "Fragment": "fragment",
+      "IP": "ip"
+    }
+  },
+  "PrivateHost": {
+    "Classes": [
+      "dynamic",
+      "ms_windows"
+    ]
+  },
+  "ProxyLB": {
+    "BindModes": {
+      "HTTP": "http",
+      "HTTPS": "https",
+      "TCP": "tcp"
+    },
+    "HealthCheckProtocols": {
+      "HTTP": "http",
+      "TCP": "tcp"
+    },
+    "Plans": {
+      "CPS100": 100,
+      "CPS500": 500,
+      "CPS1000": 1000,
+      "CPS5000": 5000,
+      "CPS10000": 10000,
+      "CPS50000": 50000,
+      "CPS100000": 100000
+    },
+    "Regions": {
+      "TK1": "tk1",
+      "IS1": "is1"
+    }
+  },
+  "SIM": {
+    "NetworkOperators": {
+      "KDDI": "KDDI",
+      "Docomo": "NTT DOCOMO",
+      "SoftBank": "SoftBank"
+    }
+  },
+  "Server": {
+    "Commitments": {
+      "Unknown": "",
+      "Standard": "standard",
+      "DedicatedCPU": "dedicatedcpu"
+    },
+    "InterfaceDrivers": {
+      "VirtIO": "virtio",
+      "E1000": "e1000"
+    },
+    "PlanGeneration": {
+      "Default": 0,
+      "G100": 100,
+      "G200": 200
+    },
+    "Plans": [
+      {
+        "Name": "プラン/1Core-1GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-1GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-1GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/1Core-2GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-2GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-2GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-2GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/1Core-3GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-3GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-3GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-3GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-3GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/1Core-4GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-4GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-4GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-4GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-4GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-4GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/1Core-5GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-5GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-5GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-5GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-5GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-5GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-5GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/2Core-6GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-6GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-6GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-6GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-6GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-6GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-6GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-8GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-8GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-8GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-8GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-8GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-8GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-8GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/3Core-12GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-12GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-12GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-12GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-12GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-12GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-12GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-12GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-16GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-16GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-16GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-16GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-16GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-16GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-16GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-16GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/4Core-24GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-24GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-24GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-24GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-24GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-24GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-24GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-24GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/5Core-32GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-32GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-32GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-32GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-32GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-32GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-32GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/6Core-48GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-48GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-48GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-48GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-48GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-48GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/8Core-64GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-64GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-64GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-64GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-64GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/10Core-96GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-96GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-96GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-96GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-128GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-128GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-128GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/12Core-160GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-160GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-160GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/16Core-192GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 196608,
+        "MemoryGB": 192,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-192GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 196608,
+        "MemoryGB": 192,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/20Core-224GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 229376,
+        "MemoryGB": 224,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/2Core-4GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/4Core-8GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/4Core-16GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/8Core-16GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/10Core-24GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "プラン/1Core-1GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-1GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-1GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 1024,
+        "MemoryGB": 1,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/1Core-2GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-2GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-2GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-2GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 2048,
+        "MemoryGB": 2,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/1Core-3GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-3GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-3GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-3GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-3GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 3072,
+        "MemoryGB": 3,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/1Core-4GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-4GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-4GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-4GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-4GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-4GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/1Core-5GB(新プラン)",
+        "CPU": 1,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-5GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-5GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-5GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-5GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-5GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-5GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 5120,
+        "MemoryGB": 5,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/2Core-6GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-6GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-6GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-6GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-6GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-6GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-6GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 6144,
+        "MemoryGB": 6,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-8GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-8GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-8GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-8GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-8GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-8GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-8GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/3Core-12GB(新プラン)",
+        "CPU": 3,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-12GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-12GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-12GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-12GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-12GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-12GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-12GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 12288,
+        "MemoryGB": 12,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-16GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-16GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-16GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-16GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-16GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-16GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-16GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-16GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/4Core-24GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-24GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-24GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-24GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-24GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-24GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-24GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-24GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/5Core-32GB(新プラン)",
+        "CPU": 5,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-32GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-32GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-32GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-32GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-32GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-32GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/6Core-48GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-48GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-48GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-48GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-48GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-48GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/8Core-64GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-64GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-64GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-64GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-64GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 65536,
+        "MemoryGB": 64,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/10Core-96GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-96GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-96GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-96GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 98304,
+        "MemoryGB": 96,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-128GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-128GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-128GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 131072,
+        "MemoryGB": 128,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/12Core-160GB(新プラン)",
+        "CPU": 12,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-160GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-160GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 163840,
+        "MemoryGB": 160,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/16Core-192GB(新プラン)",
+        "CPU": 16,
+        "MemoryMB": 196608,
+        "MemoryGB": 192,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-192GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 196608,
+        "MemoryGB": 192,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "プラン/20Core-224GB(新プラン)",
+        "CPU": 20,
+        "MemoryMB": 229376,
+        "MemoryGB": 224,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/2Core-4GB(新プラン)",
+        "CPU": 2,
+        "MemoryMB": 4096,
+        "MemoryGB": 4,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/4Core-8GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 8192,
+        "MemoryGB": 8,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/4Core-16GB(新プラン)",
+        "CPU": 4,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/8Core-16GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 16384,
+        "MemoryGB": 16,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/10Core-24GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 24576,
+        "MemoryGB": 24,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      }
+    ],
+    "SpecialTags": {
+      "GroupA": "@group=a",
+      "GroupB": "@group=b",
+      "GroupC": "@group=c",
+      "GroupD": "@group=d",
+      "AutoReboot": "@auto-reboot",
+      "KeyboardUS": "@keyboard-us",
+      "BootCDROM": "@boot-cdrom",
+      "BootNetwork": "@boot-network",
+      "CPUTopology": "@cpu-topology"
+    }
+  },
+  "SimpleMonitor": {
+    "HealthCheckProtocols": {
+      "HTTP": "http",
+      "HTTPS": "https",
+      "Ping": "ping",
+      "TCP": "tcp",
+      "DNS": "dns",
+      "SSH": "ssh",
+      "SMTP": "smtp",
+      "POP3": "pop3",
+      "SNMP": "snmp",
+      "SSLCertificate": "sslcertificate"
+    },
+    "HealthStatus": {
+      "Up": "UP",
+      "Down": "DOWN"
+    }
+  },
+  "VPCRouter": {
+    "FirewallProtocols": {
+      "TCP": "tcp",
+      "UDP": "udp",
+      "ICMP": "icmp",
+      "IP": "ip"
+    },
+    "PlanNames": {
+      "1": "standard",
+      "2": "premium",
+      "3": "highspec",
+      "4": "highspec4000"
+    },
+    "Plans": {
+      "Standard": 1,
+      "Premium": 2,
+      "HighSpec": 3,
+      "HighSpec4000": 4
+    },
+    "PortForwardProtocols": {
+      "TCP": "tcp",
+      "UDP": "udp"
+    }
+  },
+  "WebAccel": {
+    "DomainTypes": {
+      "Own": "own_domain",
+      "SubDomain": "subdomain"
+    },
+    "Status": {
+      "Enabled": "enabled",
+      "Disabled": "disabled"
+    }
+  },
+  "Zone": {
+    "IDs": {
+      "is1a": 31001,
+      "is1b": 31002,
+      "tk1a": 21001,
+      "tk1v": 29001
+    },
+    "Names": [
+      "tk1a",
+      "is1a",
+      "is1b",
+      "tk1v"
+    ]
+  }
+}

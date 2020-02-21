@@ -1,0 +1,16 @@
+{
+    "name": "typescript",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/node": "latest",
+        "typescript": "^3.8.2"
+    },
+    "dependencies": {
+        "@sacloud/constants": "latest"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node bin/."
+    },
+    "main": "index.js"
+}

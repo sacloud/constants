@@ -1,0 +1,10 @@
+tools/sacloud-constants-generator/vendor/
+**/bin/
+**/obj/
+nodejs/node_modules
+
+.env
+.idea/
+*.iml
+
+yarn.lock

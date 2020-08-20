@@ -114,7 +114,7 @@ func generate() (map[string]map[string]interface{}, error) {
 			"HealthCheckProtocols": types.GSLBHealthCheckProtocols,
 		},
 		"Internet": {
-			"BandWidths": types.InternetBandWidths(),
+			"BandWidths": types.InternetBandWidths,
 		},
 		"LoadBalancer": {
 			"HealthCheckProtocols": types.LoadBalancerHealthCheckProtocols,

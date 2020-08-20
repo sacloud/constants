@@ -361,8 +361,9 @@ export interface PurpleHealthCheckProtocols {
 }
 
 export interface Regions {
-    TK1: string;
-    IS1: string;
+    TK1:     string;
+    IS1:     string;
+    Anycast: string;
 }
 
 export interface Sim {

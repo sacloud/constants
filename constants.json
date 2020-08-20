@@ -161,18 +161,18 @@
       ],
       "Windows2016": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20Datacenter%20Edition"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
               "os-windows",
               "distro-ver-2016"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20Datacenter%20Edition"
           ]
         }
       ],
@@ -297,12 +297,6 @@
       ],
       "Windows2016SQLServerStandardAll": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20/%20MS%20Office"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -314,6 +308,12 @@
               "windows-rds",
               "with-office"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20/%20MS%20Office"
           ]
         }
       ],
@@ -339,6 +339,12 @@
       ],
       "Windows2019": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20Datacenter%20Edition"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -346,21 +352,9 @@
               "distro-ver-2019"
             ]
           ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20Datacenter%20Edition"
-          ]
         }
       ],
       "Windows2019RDS": [
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20RDS"
-          ]
-        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -369,6 +363,12 @@
               "distro-ver-2019",
               "windows-rds"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20RDS"
           ]
         }
       ],
@@ -393,6 +393,12 @@
       ],
       "Windows2019RDSOffice2019": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20RDS%28MS%20Office2019%E4%BB%98%29"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -401,12 +407,6 @@
               "windows-rds",
               "with-office"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20RDS%28MS%20Office2019%E4%BB%98%29"
           ]
         }
       ],
@@ -474,12 +474,6 @@
       ],
       "Windows2019SQLServer2017Web": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -489,6 +483,12 @@
               "sqlserver-2017",
               "edition-web"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
           ]
         }
       ],
@@ -534,6 +534,12 @@
       ],
       "Windows2019SQLServer2019StandardAll": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -545,12 +551,6 @@
               "windows-rds",
               "with-office"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
           ]
         }
       ],
@@ -743,8 +743,8 @@
       },
       {
         "Name": "MariaDB",
-        "Version": "10.3",
-        "Revision": "10.3.15"
+        "Version": "10.4",
+        "Revision": ""
       }
     ]
   },
@@ -1594,7 +1594,7 @@
     }
   },
   "Meta": {
-    "Version": "2.1.2"
+    "Version": "2.7.0"
   },
   "NFS": {
     "PlanNames": {
@@ -1704,7 +1704,8 @@
     },
     "Regions": {
       "TK1": "tk1",
-      "IS1": "is1"
+      "IS1": "is1",
+      "Anycast": "anycast"
     }
   },
   "SIM": {
@@ -2523,6 +2524,38 @@
         "Zone": "is1a"
       },
       {
+        "Name": "コア専有プラン/6Core-32GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/8Core-32GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/10Core-32GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/10Core-48GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
+        "Commitment": "dedicatedcpu",
+        "Zone": "is1a"
+      },
+      {
         "Name": "プラン/1Core-1GB(新プラン)",
         "CPU": 1,
         "MemoryMB": 1024,
@@ -3311,6 +3344,38 @@
         "CPU": 10,
         "MemoryMB": 24576,
         "MemoryGB": 24,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/6Core-32GB(新プラン)",
+        "CPU": 6,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/8Core-32GB(新プラン)",
+        "CPU": 8,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/10Core-32GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 32768,
+        "MemoryGB": 32,
+        "Commitment": "dedicatedcpu",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "コア専有プラン/10Core-48GB(新プラン)",
+        "CPU": 10,
+        "MemoryMB": 49152,
+        "MemoryGB": 48,
         "Commitment": "dedicatedcpu",
         "Zone": "tk1v"
       }

@@ -32,7 +32,7 @@ console.log("Based libsacloud version", Constants.Meta.Version);
 console.log("Archive OSTypes", Constants.Archive.OSTypes);
 /*
 # Output Example
-Based libsacloud version 2.1.2
+Based libsacloud version 2.7.0
 
 Archive OSTypes {
   CentOS: 'centos',

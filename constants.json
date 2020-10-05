@@ -159,13 +159,17 @@
           ]
         }
       ],
-      "Windows2016": [
+      "Ubuntu2004": [
         {
-          "Key": "Name",
+          "Key": "Tags.Name",
           "Value": [
-            "Windows%20Server%202016%20Datacenter%20Edition"
+            [
+              "ubuntu-20.04-latest"
+            ]
           ]
-        },
+        }
+      ],
+      "Windows2016": [
         {
           "Key": "Tags.Name",
           "Value": [
@@ -174,9 +178,21 @@
               "distro-ver-2016"
             ]
           ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20Datacenter%20Edition"
+          ]
         }
       ],
       "Windows2016RDS": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20RDS"
+          ]
+        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -185,12 +201,6 @@
               "distro-ver-2016",
               "windows-rds"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20RDS"
           ]
         }
       ],
@@ -255,6 +265,12 @@
       ],
       "Windows2016SQLServer2017StandardAll": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -266,12 +282,6 @@
               "windows-rds",
               "with-office"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
           ]
         }
       ],
@@ -319,6 +329,12 @@
       ],
       "Windows2016SQLServerWeb": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Web%29"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -329,21 +345,9 @@
               "edition-web"
             ]
           ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Web%29"
-          ]
         }
       ],
       "Windows2019": [
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20Datacenter%20Edition"
-          ]
-        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -351,6 +355,12 @@
               "os-windows",
               "distro-ver-2019"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20Datacenter%20Edition"
           ]
         }
       ],
@@ -372,7 +382,7 @@
           ]
         }
       ],
-      "Windows2019RDSOffice2016": [
+      "Windows2019RDSOffice2019": [
         {
           "Key": "Tags.Name",
           "Value": [
@@ -384,29 +394,10 @@
             ]
           ]
         },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20RDS%28MS%20Office%E4%BB%98%29"
-          ]
-        }
-      ],
-      "Windows2019RDSOffice2019": [
         {
           "Key": "Name",
           "Value": [
             "Windows%20Server%202019%20for%20RDS%28MS%20Office2019%E4%BB%98%29"
-          ]
-        },
-        {
-          "Key": "Tags.Name",
-          "Value": [
-            [
-              "os-windows",
-              "distro-ver-2019",
-              "windows-rds",
-              "with-office"
-            ]
           ]
         }
       ],
@@ -534,12 +525,6 @@
       ],
       "Windows2019SQLServer2019StandardAll": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -551,6 +536,12 @@
               "windows-rds",
               "with-office"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
           ]
         }
       ],
@@ -591,6 +582,7 @@
       "Ubuntu": "ubuntu",
       "Ubuntu1604": "ubuntu1604",
       "Ubuntu1804": "ubuntu1804",
+      "Ubuntu2004": "ubuntu2004",
       "Windows2016": "windows2016",
       "Windows2016RDS": "windows2016-rds",
       "Windows2016RDSOffice": "windows2016-rds-office",
@@ -602,7 +594,6 @@
       "Windows2016SQLServerWeb": "windows2016-sql-web",
       "Windows2019": "windows2019",
       "Windows2019RDS": "windows2019-rds",
-      "Windows2019RDSOffice2016": "windows2019-rds-office2016",
       "Windows2019RDSOffice2019": "windows2019-rds-office2019",
       "Windows2019SQLServer2017Enterprise": "windows2019-sql2017-enterprise",
       "Windows2019SQLServer2017Standard": "windows2019-sql2017-standard",
@@ -959,6 +950,132 @@
         "SizeMB": 12582912,
         "SizeGB": 12288,
         "Zone": "tk1a"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 20,
+        "DisplaySuffix": "GB",
+        "SizeMB": 20480,
+        "SizeGB": 20,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 40,
+        "DisplaySuffix": "GB",
+        "SizeMB": 40960,
+        "SizeGB": 40,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 100,
+        "DisplaySuffix": "GB",
+        "SizeMB": 102400,
+        "SizeGB": 100,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 250,
+        "DisplaySuffix": "GB",
+        "SizeMB": 256000,
+        "SizeGB": 250,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 500,
+        "DisplaySuffix": "GB",
+        "SizeMB": 512000,
+        "SizeGB": 500,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 1,
+        "DisplaySuffix": "TB",
+        "SizeMB": 1048576,
+        "SizeGB": 1024,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 4,
+        "Name": "SSDプラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 2,
+        "DisplaySuffix": "TB",
+        "SizeMB": 2097152,
+        "SizeGB": 2048,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 4,
+        "DisplaySuffix": "TB",
+        "SizeMB": 4194304,
+        "SizeGB": 4096,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 8,
+        "DisplaySuffix": "TB",
+        "SizeMB": 8388608,
+        "SizeGB": 8192,
+        "Zone": "tk1b"
+      },
+      {
+        "PlanID": 2,
+        "Name": "標準プラン",
+        "DisplaySize": 12,
+        "DisplaySuffix": "TB",
+        "SizeMB": 12582912,
+        "SizeGB": 12288,
+        "Zone": "tk1b"
       },
       {
         "PlanID": 4,
@@ -1594,7 +1711,7 @@
     }
   },
   "Meta": {
-    "Version": "2.7.0"
+    "Version": "2.8.2"
   },
   "NFS": {
     "PlanNames": {
@@ -3449,10 +3566,12 @@
       "is1a": 31001,
       "is1b": 31002,
       "tk1a": 21001,
+      "tk1b": 21002,
       "tk1v": 29001
     },
     "Names": [
       "tk1a",
+      "tk1b",
       "is1a",
       "is1b",
       "tk1v"

@@ -46,6 +46,7 @@ export interface OSTypeQueries {
     Ubuntu:                              CentO[];
     Ubuntu1604:                          CentO[];
     Ubuntu1804:                          CentO[];
+    Ubuntu2004:                          CentO[];
     Windows2016:                         LivingstoneSouthernWhiteFacedOwl[];
     Windows2016RDS:                      LivingstoneSouthernWhiteFacedOwl[];
     Windows2016RDSOffice:                LivingstoneSouthernWhiteFacedOwl[];
@@ -57,7 +58,6 @@ export interface OSTypeQueries {
     Windows2016SQLServerWeb:             LivingstoneSouthernWhiteFacedOwl[];
     Windows2019:                         LivingstoneSouthernWhiteFacedOwl[];
     Windows2019RDS:                      LivingstoneSouthernWhiteFacedOwl[];
-    Windows2019RDSOffice2016:            LivingstoneSouthernWhiteFacedOwl[];
     Windows2019RDSOffice2019:            LivingstoneSouthernWhiteFacedOwl[];
     Windows2019SQLServer2017Enterprise:  LivingstoneSouthernWhiteFacedOwl[];
     Windows2019SQLServer2017Standard:    LivingstoneSouthernWhiteFacedOwl[];
@@ -95,6 +95,7 @@ export interface OSTypes {
     Ubuntu:                              string;
     Ubuntu1604:                          string;
     Ubuntu1804:                          string;
+    Ubuntu2004:                          string;
     Windows2016:                         string;
     Windows2016RDS:                      string;
     Windows2016RDSOffice:                string;
@@ -106,7 +107,6 @@ export interface OSTypes {
     Windows2016SQLServerWeb:             string;
     Windows2019:                         string;
     Windows2019RDS:                      string;
-    Windows2019RDSOffice2016:            string;
     Windows2019RDSOffice2019:            string;
     Windows2019SQLServer2017Enterprise:  string;
     Windows2019SQLServer2017Standard:    string;

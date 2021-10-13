@@ -1,6 +1,17 @@
 {
   "Archive": {
     "OSTypeQueries": {
+      "AlmaLinux": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-alma"
+            ]
+          ]
+        }
+      ],
       "CentOS": [
         {
           "Key": "Tags.Name",
@@ -8,16 +19,6 @@
             [
               "current-stable",
               "distro-centos"
-            ]
-          ]
-        }
-      ],
-      "CentOS6": [
-        {
-          "Key": "Tags.Name",
-          "Value": [
-            [
-              "centos-6-latest"
             ]
           ]
         }
@@ -38,6 +39,17 @@
           "Value": [
             [
               "centos-8-latest"
+            ]
+          ]
+        }
+      ],
+      "CentOS8Stream": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "distro-ver-8-stream",
+              "distro-centos"
             ]
           ]
         }
@@ -74,12 +86,12 @@
           ]
         }
       ],
-      "Debian9": [
+      "Debian11": [
         {
           "Key": "Tags.Name",
           "Value": [
             [
-              "debian-9-latest"
+              "debian-11-latest"
             ]
           ]
         }
@@ -128,6 +140,17 @@
           ]
         }
       ],
+      "RockyLinux": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-rocky"
+            ]
+          ]
+        }
+      ],
       "Ubuntu": [
         {
           "Key": "Tags.Name",
@@ -135,16 +158,6 @@
             [
               "current-stable",
               "distro-ubuntu"
-            ]
-          ]
-        }
-      ],
-      "Ubuntu1604": [
-        {
-          "Key": "Tags.Name",
-          "Value": [
-            [
-              "ubuntu-16.04-latest"
             ]
           ]
         }
@@ -188,12 +201,6 @@
       ],
       "Windows2016RDS": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20RDS"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -201,6 +208,12 @@
               "distro-ver-2016",
               "windows-rds"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20RDS"
           ]
         }
       ],
@@ -265,12 +278,6 @@
       ],
       "Windows2016SQLServer2017StandardAll": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -283,9 +290,21 @@
               "with-office"
             ]
           ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20%2F%20MS%20Office"
+          ]
         }
       ],
       "Windows2016SQLServerStandard": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Standard%29"
+          ]
+        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -296,12 +315,6 @@
               "sqlserver-2016",
               "edition-standard"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Standard%29"
           ]
         }
       ],
@@ -323,17 +336,11 @@
         {
           "Key": "Name",
           "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20/%20MS%20Office"
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20%2F%20MS%20Office"
           ]
         }
       ],
       "Windows2016SQLServerWeb": [
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Web%29"
-          ]
-        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -344,6 +351,12 @@
               "sqlserver-2016",
               "edition-web"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Web%29"
           ]
         }
       ],
@@ -403,6 +416,12 @@
       ],
       "Windows2019SQLServer2017Enterprise": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Enterprise%29"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -412,12 +431,6 @@
               "sqlserver-2017",
               "edition-enterprise"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Enterprise%29"
           ]
         }
       ],
@@ -443,6 +456,12 @@
       ],
       "Windows2019SQLServer2017StandardAll": [
         {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20%2F%20MS%20Office"
+          ]
+        },
+        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -455,15 +474,15 @@
               "with-office"
             ]
           ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20/%20MS%20Office"
-          ]
         }
       ],
       "Windows2019SQLServer2017Web": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
+          ]
+        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -475,15 +494,15 @@
               "edition-web"
             ]
           ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
-          ]
         }
       ],
       "Windows2019SQLServer2019Enterprise": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Enterprise%29"
+          ]
+        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -494,12 +513,6 @@
               "sqlserver-2019",
               "edition-enterprise"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Enterprise%29"
           ]
         }
       ],
@@ -541,17 +554,11 @@
         {
           "Key": "Name",
           "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20/%20MS%20Office"
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Std%29%20with%20RDS%20%2F%20MS%20Office"
           ]
         }
       ],
       "Windows2019SQLServer2019Web": [
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Web%29"
-          ]
-        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -563,24 +570,31 @@
               "edition-web"
             ]
           ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Web%29"
+          ]
         }
       ]
     },
     "OSTypes": {
+      "AlmaLinux": "almalinux",
       "CentOS": "centos",
-      "CentOS6": "centos6",
       "CentOS7": "centos7",
       "CentOS8": "centos8",
+      "CentOS8Stream": "centos8stream",
       "CoreOS": "coreos",
       "Debian": "debian",
       "Debian10": "debian10",
-      "Debian9": "debian9",
+      "Debian11": "debian11",
       "FreeBSD": "freebsd",
       "K3OS": "k3os",
       "Kusanagi": "kusanagi",
       "RancherOS": "rancheros",
+      "RockyLinux": "rockylinux",
       "Ubuntu": "ubuntu",
-      "Ubuntu1604": "ubuntu1604",
       "Ubuntu1804": "ubuntu1804",
       "Ubuntu2004": "ubuntu2004",
       "Windows2016": "windows2016",
@@ -649,6 +663,14 @@
       "Thursday": "thu",
       "Friday": "fri",
       "Saturday": "sat"
+    }
+  },
+  "CertificateAuthority": {
+    "IssuanceMethods": {
+      "URL": "url",
+      "EMail": "email",
+      "PublicKey": "public_key",
+      "CSR": "csr"
     }
   },
   "Common": {
@@ -1691,7 +1713,20 @@
       2000,
       2500,
       3000,
-      5000
+      3500,
+      4000,
+      4500,
+      5000,
+      5500,
+      6000,
+      6500,
+      7000,
+      7500,
+      8000,
+      8500,
+      9000,
+      9500,
+      10000
     ]
   },
   "LoadBalancer": {
@@ -1711,7 +1746,7 @@
     }
   },
   "Meta": {
-    "Version": "2.8.2"
+    "Version": "2.26.0"
   },
   "NFS": {
     "PlanNames": {
@@ -1817,12 +1852,35 @@
       "CPS5000": 5000,
       "CPS10000": 10000,
       "CPS50000": 50000,
-      "CPS100000": 100000
+      "CPS100000": 100000,
+      "CPS400000": 400000
     },
     "Regions": {
       "TK1": "tk1",
       "IS1": "is1",
       "Anycast": "anycast"
+    },
+    "Rule": {
+      "Actions": {
+        "Forward": "forward",
+        "Redirect": "redirect",
+        "Fixed": "fixed"
+      },
+      "FixedContentTypes": {
+        "Plain": "text/plain",
+        "HTML": "text/html",
+        "JavaScript": "application/javascript",
+        "JSON": "application/json"
+      },
+      "FixedStatusCodes": {
+        "OK": 200,
+        "Forbidden": 403,
+        "ServiceUnavailable": 503
+      },
+      "RedirectStatusCodes": {
+        "MovedPermanently": 301,
+        "Found": 302
+      }
     }
   },
   "SIM": {
@@ -1849,7 +1907,7 @@
     },
     "Plans": [
       {
-        "Name": "プラン/1Core-1GB(新プラン)",
+        "Name": "プラン/1Core-1GB",
         "CPU": 1,
         "MemoryMB": 1024,
         "MemoryGB": 1,
@@ -1857,7 +1915,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-1GB(新プラン)",
+        "Name": "プラン/2Core-1GB",
         "CPU": 2,
         "MemoryMB": 1024,
         "MemoryGB": 1,
@@ -1865,7 +1923,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-1GB(新プラン)",
+        "Name": "プラン/3Core-1GB",
         "CPU": 3,
         "MemoryMB": 1024,
         "MemoryGB": 1,
@@ -1873,7 +1931,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/1Core-2GB(新プラン)",
+        "Name": "プラン/1Core-2GB",
         "CPU": 1,
         "MemoryMB": 2048,
         "MemoryGB": 2,
@@ -1881,7 +1939,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-2GB(新プラン)",
+        "Name": "プラン/2Core-2GB",
         "CPU": 2,
         "MemoryMB": 2048,
         "MemoryGB": 2,
@@ -1889,7 +1947,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-2GB(新プラン)",
+        "Name": "プラン/3Core-2GB",
         "CPU": 3,
         "MemoryMB": 2048,
         "MemoryGB": 2,
@@ -1897,7 +1955,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-2GB(新プラン)",
+        "Name": "プラン/4Core-2GB",
         "CPU": 4,
         "MemoryMB": 2048,
         "MemoryGB": 2,
@@ -1905,7 +1963,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/1Core-3GB(新プラン)",
+        "Name": "プラン/1Core-3GB",
         "CPU": 1,
         "MemoryMB": 3072,
         "MemoryGB": 3,
@@ -1913,7 +1971,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-3GB(新プラン)",
+        "Name": "プラン/2Core-3GB",
         "CPU": 2,
         "MemoryMB": 3072,
         "MemoryGB": 3,
@@ -1921,7 +1979,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-3GB(新プラン)",
+        "Name": "プラン/3Core-3GB",
         "CPU": 3,
         "MemoryMB": 3072,
         "MemoryGB": 3,
@@ -1929,7 +1987,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-3GB(新プラン)",
+        "Name": "プラン/4Core-3GB",
         "CPU": 4,
         "MemoryMB": 3072,
         "MemoryGB": 3,
@@ -1937,7 +1995,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-3GB(新プラン)",
+        "Name": "プラン/5Core-3GB",
         "CPU": 5,
         "MemoryMB": 3072,
         "MemoryGB": 3,
@@ -1945,7 +2003,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/1Core-4GB(新プラン)",
+        "Name": "プラン/1Core-4GB",
         "CPU": 1,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1953,7 +2011,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-4GB(新プラン)",
+        "Name": "プラン/2Core-4GB",
         "CPU": 2,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1961,7 +2019,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-4GB(新プラン)",
+        "Name": "プラン/3Core-4GB",
         "CPU": 3,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1969,7 +2027,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-4GB(新プラン)",
+        "Name": "プラン/4Core-4GB",
         "CPU": 4,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1977,7 +2035,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-4GB(新プラン)",
+        "Name": "プラン/5Core-4GB",
         "CPU": 5,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1985,7 +2043,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-4GB(新プラン)",
+        "Name": "プラン/6Core-4GB",
         "CPU": 6,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -1993,7 +2051,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/1Core-5GB(新プラン)",
+        "Name": "プラン/1Core-5GB",
         "CPU": 1,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2001,7 +2059,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-5GB(新プラン)",
+        "Name": "プラン/2Core-5GB",
         "CPU": 2,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2009,7 +2067,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-5GB(新プラン)",
+        "Name": "プラン/3Core-5GB",
         "CPU": 3,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2017,7 +2075,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-5GB(新プラン)",
+        "Name": "プラン/4Core-5GB",
         "CPU": 4,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2025,7 +2083,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-5GB(新プラン)",
+        "Name": "プラン/5Core-5GB",
         "CPU": 5,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2033,7 +2091,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-5GB(新プラン)",
+        "Name": "プラン/6Core-5GB",
         "CPU": 6,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2041,7 +2099,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-5GB(新プラン)",
+        "Name": "プラン/8Core-5GB",
         "CPU": 8,
         "MemoryMB": 5120,
         "MemoryGB": 5,
@@ -2049,7 +2107,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/2Core-6GB(新プラン)",
+        "Name": "プラン/2Core-6GB",
         "CPU": 2,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2057,7 +2115,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-6GB(新プラン)",
+        "Name": "プラン/3Core-6GB",
         "CPU": 3,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2065,7 +2123,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-6GB(新プラン)",
+        "Name": "プラン/4Core-6GB",
         "CPU": 4,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2073,7 +2131,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-6GB(新プラン)",
+        "Name": "プラン/5Core-6GB",
         "CPU": 5,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2081,7 +2139,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-6GB(新プラン)",
+        "Name": "プラン/6Core-6GB",
         "CPU": 6,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2089,7 +2147,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-6GB(新プラン)",
+        "Name": "プラン/8Core-6GB",
         "CPU": 8,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2097,7 +2155,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-6GB(新プラン)",
+        "Name": "プラン/10Core-6GB",
         "CPU": 10,
         "MemoryMB": 6144,
         "MemoryGB": 6,
@@ -2105,7 +2163,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-8GB(新プラン)",
+        "Name": "プラン/3Core-8GB",
         "CPU": 3,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2113,7 +2171,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-8GB(新プラン)",
+        "Name": "プラン/4Core-8GB",
         "CPU": 4,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2121,7 +2179,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-8GB(新プラン)",
+        "Name": "プラン/5Core-8GB",
         "CPU": 5,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2129,7 +2187,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-8GB(新プラン)",
+        "Name": "プラン/6Core-8GB",
         "CPU": 6,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2137,7 +2195,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-8GB(新プラン)",
+        "Name": "プラン/8Core-8GB",
         "CPU": 8,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2145,7 +2203,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-8GB(新プラン)",
+        "Name": "プラン/10Core-8GB",
         "CPU": 10,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2153,7 +2211,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-8GB(新プラン)",
+        "Name": "プラン/12Core-8GB",
         "CPU": 12,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2161,7 +2219,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/3Core-12GB(新プラン)",
+        "Name": "プラン/3Core-12GB",
         "CPU": 3,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2169,7 +2227,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-12GB(新プラン)",
+        "Name": "プラン/4Core-12GB",
         "CPU": 4,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2177,7 +2235,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-12GB(新プラン)",
+        "Name": "プラン/5Core-12GB",
         "CPU": 5,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2185,7 +2243,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-12GB(新プラン)",
+        "Name": "プラン/6Core-12GB",
         "CPU": 6,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2193,7 +2251,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-12GB(新プラン)",
+        "Name": "プラン/8Core-12GB",
         "CPU": 8,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2201,7 +2259,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-12GB(新プラン)",
+        "Name": "プラン/10Core-12GB",
         "CPU": 10,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2209,7 +2267,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-12GB(新プラン)",
+        "Name": "プラン/12Core-12GB",
         "CPU": 12,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2217,7 +2275,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-12GB(新プラン)",
+        "Name": "プラン/16Core-12GB",
         "CPU": 16,
         "MemoryMB": 12288,
         "MemoryGB": 12,
@@ -2225,7 +2283,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-16GB(新プラン)",
+        "Name": "プラン/4Core-16GB",
         "CPU": 4,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2233,7 +2291,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-16GB(新プラン)",
+        "Name": "プラン/5Core-16GB",
         "CPU": 5,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2241,7 +2299,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-16GB(新プラン)",
+        "Name": "プラン/6Core-16GB",
         "CPU": 6,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2249,7 +2307,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-16GB(新プラン)",
+        "Name": "プラン/8Core-16GB",
         "CPU": 8,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2257,7 +2315,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-16GB(新プラン)",
+        "Name": "プラン/10Core-16GB",
         "CPU": 10,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2265,7 +2323,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-16GB(新プラン)",
+        "Name": "プラン/12Core-16GB",
         "CPU": 12,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2273,7 +2331,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-16GB(新プラン)",
+        "Name": "プラン/16Core-16GB",
         "CPU": 16,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2281,7 +2339,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-16GB(新プラン)",
+        "Name": "プラン/20Core-16GB",
         "CPU": 20,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2289,7 +2347,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/4Core-24GB(新プラン)",
+        "Name": "プラン/4Core-24GB",
         "CPU": 4,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2297,7 +2355,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-24GB(新プラン)",
+        "Name": "プラン/5Core-24GB",
         "CPU": 5,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2305,7 +2363,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-24GB(新プラン)",
+        "Name": "プラン/6Core-24GB",
         "CPU": 6,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2313,7 +2371,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-24GB(新プラン)",
+        "Name": "プラン/8Core-24GB",
         "CPU": 8,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2321,7 +2379,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-24GB(新プラン)",
+        "Name": "プラン/10Core-24GB",
         "CPU": 10,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2329,7 +2387,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-24GB(新プラン)",
+        "Name": "プラン/12Core-24GB",
         "CPU": 12,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2337,7 +2395,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-24GB(新プラン)",
+        "Name": "プラン/16Core-24GB",
         "CPU": 16,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2345,7 +2403,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-24GB(新プラン)",
+        "Name": "プラン/20Core-24GB",
         "CPU": 20,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2353,7 +2411,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/5Core-32GB(新プラン)",
+        "Name": "プラン/5Core-32GB",
         "CPU": 5,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2361,7 +2419,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-32GB(新プラン)",
+        "Name": "プラン/6Core-32GB",
         "CPU": 6,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2369,7 +2427,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-32GB(新プラン)",
+        "Name": "プラン/8Core-32GB",
         "CPU": 8,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2377,7 +2435,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-32GB(新プラン)",
+        "Name": "プラン/10Core-32GB",
         "CPU": 10,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2385,7 +2443,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-32GB(新プラン)",
+        "Name": "プラン/12Core-32GB",
         "CPU": 12,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2393,7 +2451,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-32GB(新プラン)",
+        "Name": "プラン/16Core-32GB",
         "CPU": 16,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2401,7 +2459,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-32GB(新プラン)",
+        "Name": "プラン/20Core-32GB",
         "CPU": 20,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2409,7 +2467,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/6Core-48GB(新プラン)",
+        "Name": "プラン/6Core-48GB",
         "CPU": 6,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2417,7 +2475,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-48GB(新プラン)",
+        "Name": "プラン/8Core-48GB",
         "CPU": 8,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2425,7 +2483,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-48GB(新プラン)",
+        "Name": "プラン/10Core-48GB",
         "CPU": 10,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2433,7 +2491,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-48GB(新プラン)",
+        "Name": "プラン/12Core-48GB",
         "CPU": 12,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2441,7 +2499,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-48GB(新プラン)",
+        "Name": "プラン/16Core-48GB",
         "CPU": 16,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2449,7 +2507,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-48GB(新プラン)",
+        "Name": "プラン/20Core-48GB",
         "CPU": 20,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -2457,7 +2515,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/8Core-64GB(新プラン)",
+        "Name": "プラン/8Core-64GB",
         "CPU": 8,
         "MemoryMB": 65536,
         "MemoryGB": 64,
@@ -2465,7 +2523,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-64GB(新プラン)",
+        "Name": "プラン/10Core-64GB",
         "CPU": 10,
         "MemoryMB": 65536,
         "MemoryGB": 64,
@@ -2473,7 +2531,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-64GB(新プラン)",
+        "Name": "プラン/12Core-64GB",
         "CPU": 12,
         "MemoryMB": 65536,
         "MemoryGB": 64,
@@ -2481,7 +2539,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-64GB(新プラン)",
+        "Name": "プラン/16Core-64GB",
         "CPU": 16,
         "MemoryMB": 65536,
         "MemoryGB": 64,
@@ -2489,7 +2547,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-64GB(新プラン)",
+        "Name": "プラン/20Core-64GB",
         "CPU": 20,
         "MemoryMB": 65536,
         "MemoryGB": 64,
@@ -2497,7 +2555,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/10Core-96GB(新プラン)",
+        "Name": "プラン/10Core-96GB",
         "CPU": 10,
         "MemoryMB": 98304,
         "MemoryGB": 96,
@@ -2505,7 +2563,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-96GB(新プラン)",
+        "Name": "プラン/12Core-96GB",
         "CPU": 12,
         "MemoryMB": 98304,
         "MemoryGB": 96,
@@ -2513,7 +2571,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-96GB(新プラン)",
+        "Name": "プラン/16Core-96GB",
         "CPU": 16,
         "MemoryMB": 98304,
         "MemoryGB": 96,
@@ -2521,7 +2579,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-96GB(新プラン)",
+        "Name": "プラン/20Core-96GB",
         "CPU": 20,
         "MemoryMB": 98304,
         "MemoryGB": 96,
@@ -2529,7 +2587,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-128GB(新プラン)",
+        "Name": "プラン/12Core-128GB",
         "CPU": 12,
         "MemoryMB": 131072,
         "MemoryGB": 128,
@@ -2537,7 +2595,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-128GB(新プラン)",
+        "Name": "プラン/16Core-128GB",
         "CPU": 16,
         "MemoryMB": 131072,
         "MemoryGB": 128,
@@ -2545,7 +2603,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-128GB(新プラン)",
+        "Name": "プラン/20Core-128GB",
         "CPU": 20,
         "MemoryMB": 131072,
         "MemoryGB": 128,
@@ -2553,7 +2611,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/12Core-160GB(新プラン)",
+        "Name": "プラン/12Core-160GB",
         "CPU": 12,
         "MemoryMB": 163840,
         "MemoryGB": 160,
@@ -2561,7 +2619,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-160GB(新プラン)",
+        "Name": "プラン/16Core-160GB",
         "CPU": 16,
         "MemoryMB": 163840,
         "MemoryGB": 160,
@@ -2569,7 +2627,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-160GB(新プラン)",
+        "Name": "プラン/20Core-160GB",
         "CPU": 20,
         "MemoryMB": 163840,
         "MemoryGB": 160,
@@ -2577,7 +2635,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/16Core-192GB(新プラン)",
+        "Name": "プラン/16Core-192GB",
         "CPU": 16,
         "MemoryMB": 196608,
         "MemoryGB": 192,
@@ -2585,7 +2643,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-192GB(新プラン)",
+        "Name": "プラン/20Core-192GB",
         "CPU": 20,
         "MemoryMB": 196608,
         "MemoryGB": 192,
@@ -2593,7 +2651,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "プラン/20Core-224GB(新プラン)",
+        "Name": "プラン/20Core-224GB",
         "CPU": 20,
         "MemoryMB": 229376,
         "MemoryGB": 224,
@@ -2601,7 +2659,15 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/2Core-4GB(新プラン)",
+        "Name": "GPUプラン/4Core-56GB-1GPU",
+        "CPU": 4,
+        "MemoryMB": 57344,
+        "MemoryGB": 56,
+        "Commitment": "standard",
+        "Zone": "is1a"
+      },
+      {
+        "Name": "コア専有プラン/2Core-4GB",
         "CPU": 2,
         "MemoryMB": 4096,
         "MemoryGB": 4,
@@ -2609,7 +2675,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/4Core-8GB(新プラン)",
+        "Name": "コア専有プラン/4Core-8GB",
         "CPU": 4,
         "MemoryMB": 8192,
         "MemoryGB": 8,
@@ -2617,7 +2683,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/4Core-16GB(新プラン)",
+        "Name": "コア専有プラン/4Core-16GB",
         "CPU": 4,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2625,7 +2691,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/8Core-16GB(新プラン)",
+        "Name": "コア専有プラン/8Core-16GB",
         "CPU": 8,
         "MemoryMB": 16384,
         "MemoryGB": 16,
@@ -2633,7 +2699,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/10Core-24GB(新プラン)",
+        "Name": "コア専有プラン/10Core-24GB",
         "CPU": 10,
         "MemoryMB": 24576,
         "MemoryGB": 24,
@@ -2641,7 +2707,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/6Core-32GB(新プラン)",
+        "Name": "コア専有プラン/6Core-32GB",
         "CPU": 6,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2649,7 +2715,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/8Core-32GB(新プラン)",
+        "Name": "コア専有プラン/8Core-32GB",
         "CPU": 8,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2657,7 +2723,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/10Core-32GB(新プラン)",
+        "Name": "コア専有プラン/10Core-32GB",
         "CPU": 10,
         "MemoryMB": 32768,
         "MemoryGB": 32,
@@ -2665,7 +2731,7 @@
         "Zone": "is1a"
       },
       {
-        "Name": "コア専有プラン/10Core-48GB(新プラン)",
+        "Name": "コア専有プラン/10Core-48GB",
         "CPU": 10,
         "MemoryMB": 49152,
         "MemoryGB": 48,
@@ -3510,6 +3576,11 @@
     }
   },
   "SimpleMonitor": {
+    "HealthCheckFTPS": {
+      "Default": "",
+      "Implicit": "implicit",
+      "Explicit": "explicit"
+    },
     "HealthCheckProtocols": {
       "HTTP": "http",
       "HTTPS": "https",
@@ -3520,7 +3591,8 @@
       "SMTP": "smtp",
       "POP3": "pop3",
       "SNMP": "snmp",
-      "SSLCertificate": "sslcertificate"
+      "SSLCertificate": "sslcertificate",
+      "FTP": "ftp"
     },
     "HealthStatus": {
       "Up": "UP",

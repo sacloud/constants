@@ -19,7 +19,7 @@ VERSION ?= dev
 
 # constants
 AUTHOR          ?="The Constants Authors"
-COPYRIGHT_YEAR  ?="2020"
+COPYRIGHT_YEAR  ?="2020-2021"
 COPYRIGHT_FILES ?=$$(find . -name "*.go" -print | grep -v "/vendor/")
 
 default: all
@@ -33,12 +33,11 @@ test:
 
 .PHONY: tools
 tools:
-	GO111MODULE=off go get golang.org/x/tools/cmd/goimports
-	GO111MODULE=off go get golang.org/x/tools/cmd/stringer
-	GO111MODULE=off go get github.com/motemen/gobump
-	GO111MODULE=off go get github.com/sacloud/addlicense
-	GO111MODULE=off go get -u github.com/client9/misspell/cmd/misspell
-	curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/v1.19.1/install.sh | sh -s -- -b $$(go env GOPATH)/bin v1.19.1
+	go install golang.org/x/tools/cmd/goimports@latest
+	go install golang.org/x/tools/cmd/stringer@latest
+	go install github.com/sacloud/addlicense@latest
+	go install github.com/client9/misspell/cmd/misspell@latest
+	curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/v1.42.1/install.sh | sh -s -- -b $$(go env GOPATH)/bin v1.42.1
 	npm install -g quicktype
 
 .PHONY: clean
@@ -49,17 +48,17 @@ clean:
 
 .PHONY: output
 output: goimports set-license
-	@go run tools/sacloud-constants-generator/main.go json
+	@(cd tools/sacloud-constants-generator; go run . json)
 
 .PHONY: json
 json: goimports set-license
-	@go run tools/sacloud-constants-generator/main.go json > constants.json
+	@(cd tools/sacloud-constants-generator; go run . json > ../../constants.json)
 
 .PHONY: ts
 ts: json
 	@echo "Building @sacloud/constants@${VERSION}"
 	@quicktype -l ts -o nodejs/types.ts -t SakuraCloud --just-types --acronym-style original --no-enums constants.json
-	@go run tools/sacloud-constants-generator/main.go ts > nodejs/constants.ts
+	@(cd tools/sacloud-constants-generator; go run . ts > ../../nodejs/constants.ts)
 	cd nodejs && rm -f *.bak && rm -rf nodejs/bin && \
     	yarn install && \
     	yarn run tsc && \
@@ -88,13 +87,6 @@ godoc:
 .PHONY: lint
 lint:
 	@golangci-lint run ./...
-
-version:
-	@gobump show -r
-
-.PHONY: git tag
-git-tag:
-	git tag v`gobump show -r`
 
 .PHONY: set-license
 set-license:

@@ -1,27 +1,28 @@
 export interface SakuraCloud {
-    Archive:           Archive;
-    Auth:              Auth;
-    Backup:            Backup;
-    Common:            Common;
-    ContainerRegistry: ContainerRegistry;
-    DNS:               DNS;
-    Database:          Database;
-    Disk:              Disk;
-    GSLB:              Gslb;
-    Internet:          Internet;
-    LoadBalancer:      LoadBalancer;
-    Meta:              Meta;
-    NFS:               NFS;
-    Note:              Note;
-    PacketFilter:      PacketFilter;
-    PrivateHost:       Note;
-    ProxyLB:           ProxyLB;
-    SIM:               Sim;
-    Server:            Server;
-    SimpleMonitor:     SimpleMonitor;
-    VPCRouter:         VPCRouter;
-    WebAccel:          WebAccel;
-    Zone:              Zone;
+    Archive:              Archive;
+    Auth:                 Auth;
+    Backup:               Backup;
+    CertificateAuthority: CertificateAuthority;
+    Common:               Common;
+    ContainerRegistry:    ContainerRegistry;
+    DNS:                  DNS;
+    Database:             Database;
+    Disk:                 Disk;
+    GSLB:                 Gslb;
+    Internet:             Internet;
+    LoadBalancer:         LoadBalancer;
+    Meta:                 Meta;
+    NFS:                  NFS;
+    Note:                 Note;
+    PacketFilter:         PacketFilter;
+    PrivateHost:          Note;
+    ProxyLB:              ProxyLB;
+    SIM:                  Sim;
+    Server:               Server;
+    SimpleMonitor:        SimpleMonitor;
+    VPCRouter:            VPCRouter;
+    WebAccel:             WebAccel;
+    Zone:                 Zone;
 }
 
 export interface Archive {
@@ -31,22 +32,23 @@ export interface Archive {
 }
 
 export interface OSTypeQueries {
-    CentOS:                              CentO[];
-    CentOS6:                             CentO[];
-    CentOS7:                             CentO[];
-    CentOS8:                             CentO[];
-    CoreOS:                              CentO[];
-    Debian:                              CentO[];
-    Debian10:                            CentO[];
-    Debian9:                             CentO[];
-    FreeBSD:                             CentO[];
-    K3OS:                                CentO[];
-    Kusanagi:                            CentO[];
-    RancherOS:                           CentO[];
-    Ubuntu:                              CentO[];
-    Ubuntu1604:                          CentO[];
-    Ubuntu1804:                          CentO[];
-    Ubuntu2004:                          CentO[];
+    AlmaLinux:                           AlmaLinux[];
+    CentOS:                              AlmaLinux[];
+    CentOS7:                             AlmaLinux[];
+    CentOS8:                             AlmaLinux[];
+    CentOS8Stream:                       AlmaLinux[];
+    CoreOS:                              AlmaLinux[];
+    Debian:                              AlmaLinux[];
+    Debian10:                            AlmaLinux[];
+    Debian11:                            AlmaLinux[];
+    FreeBSD:                             AlmaLinux[];
+    K3OS:                                AlmaLinux[];
+    Kusanagi:                            AlmaLinux[];
+    RancherOS:                           AlmaLinux[];
+    RockyLinux:                          AlmaLinux[];
+    Ubuntu:                              AlmaLinux[];
+    Ubuntu1804:                          AlmaLinux[];
+    Ubuntu2004:                          AlmaLinux[];
     Windows2016:                         LivingstoneSouthernWhiteFacedOwl[];
     Windows2016RDS:                      LivingstoneSouthernWhiteFacedOwl[];
     Windows2016RDSOffice:                LivingstoneSouthernWhiteFacedOwl[];
@@ -69,7 +71,7 @@ export interface OSTypeQueries {
     Windows2019SQLServer2019Web:         LivingstoneSouthernWhiteFacedOwl[];
 }
 
-export interface CentO {
+export interface AlmaLinux {
     Key:   string;
     Value: Array<string[]>;
 }
@@ -80,20 +82,21 @@ export interface LivingstoneSouthernWhiteFacedOwl {
 }
 
 export interface OSTypes {
+    AlmaLinux:                           string;
     CentOS:                              string;
-    CentOS6:                             string;
     CentOS7:                             string;
     CentOS8:                             string;
+    CentOS8Stream:                       string;
     CoreOS:                              string;
     Debian:                              string;
     Debian10:                            string;
-    Debian9:                             string;
+    Debian11:                            string;
     FreeBSD:                             string;
     K3OS:                                string;
     Kusanagi:                            string;
     RancherOS:                           string;
+    RockyLinux:                          string;
     Ubuntu:                              string;
-    Ubuntu1604:                          string;
     Ubuntu1804:                          string;
     Ubuntu2004:                          string;
     Windows2016:                         string;
@@ -165,6 +168,17 @@ export interface Weekdays {
     Thursday:  string;
     Friday:    string;
     Saturday:  string;
+}
+
+export interface CertificateAuthority {
+    IssuanceMethods: IssuanceMethods;
+}
+
+export interface IssuanceMethods {
+    URL:       string;
+    EMail:     string;
+    PublicKey: string;
+    CSR:       string;
 }
 
 export interface Common {
@@ -329,11 +343,11 @@ export interface Note {
 }
 
 export interface PacketFilter {
-    Actions:   Actions;
+    Actions:   PacketFilterActions;
     Protocols: Protocols;
 }
 
-export interface Actions {
+export interface PacketFilterActions {
     Allow: string;
     Deny:  string;
 }
@@ -353,6 +367,7 @@ export interface ProxyLB {
     HealthCheckProtocols: PurpleHealthCheckProtocols;
     Plans:                { [key: string]: number };
     Regions:              Regions;
+    Rule:                 Rule;
 }
 
 export interface PurpleHealthCheckProtocols {
@@ -364,6 +379,37 @@ export interface Regions {
     TK1:     string;
     IS1:     string;
     Anycast: string;
+}
+
+export interface Rule {
+    Actions:             RuleActions;
+    FixedContentTypes:   FixedContentTypes;
+    FixedStatusCodes:    FixedStatusCodes;
+    RedirectStatusCodes: RedirectStatusCodes;
+}
+
+export interface RuleActions {
+    Forward:  string;
+    Redirect: string;
+    Fixed:    string;
+}
+
+export interface FixedContentTypes {
+    Plain:      string;
+    HTML:       string;
+    JavaScript: string;
+    JSON:       string;
+}
+
+export interface FixedStatusCodes {
+    OK:                 number;
+    Forbidden:          number;
+    ServiceUnavailable: number;
+}
+
+export interface RedirectStatusCodes {
+    MovedPermanently: number;
+    Found:            number;
 }
 
 export interface Sim {
@@ -423,8 +469,15 @@ export interface SpecialTags {
 }
 
 export interface SimpleMonitor {
+    HealthCheckFTPS:      HealthCheckFTPS;
     HealthCheckProtocols: SimpleMonitorHealthCheckProtocols;
     HealthStatus:         HealthStatus;
+}
+
+export interface HealthCheckFTPS {
+    Default:  string;
+    Implicit: string;
+    Explicit: string;
 }
 
 export interface SimpleMonitorHealthCheckProtocols {
@@ -438,6 +491,7 @@ export interface SimpleMonitorHealthCheckProtocols {
     POP3:           string;
     SNMP:           string;
     SSLCertificate: string;
+    FTP:            string;
 }
 
 export interface HealthStatus {

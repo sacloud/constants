@@ -87,6 +87,9 @@ func generate() (map[string]map[string]interface{}, error) {
 			"APITokenEnvKey":  sacloud.APIAccessTokenEnvKey,
 			"APISecretEnvKey": sacloud.APIAccessSecretEnvKey,
 		},
+		"CertificateAuthority": {
+			"IssuanceMethods": types.CertificateAuthorityIssuanceMethods,
+		},
 		"ContainerRegistry": {
 			"AccessLevel": types.ContainerRegistryAccessLevels,
 			"Permissions": types.ContainerRegistryPermissions,
@@ -144,12 +147,19 @@ func generate() (map[string]map[string]interface{}, error) {
 			"HealthCheckProtocols": types.ProxyLBProtocols,
 			"Plans":                types.ProxyLBPlans,
 			"Regions":              types.ProxyLBRegions,
+			"Rule": map[string]interface{}{
+				"FixedStatusCodes":    types.ProxyLBFixedStatusCodes,
+				"FixedContentTypes":   types.ProxyLBFixedContentTypes,
+				"RedirectStatusCodes": types.ProxyLBRedirectStatusCodes,
+				"Actions":             types.ProxyLBRuleActions,
+			},
 		},
 		"SIM": {
 			"NetworkOperators": types.SIMOperators,
 		},
 		"SimpleMonitor": {
 			"HealthCheckProtocols": types.SimpleMonitorProtocols,
+			"HealthCheckFTPS":      types.SimpleMonitorFTPSValues,
 			"HealthStatus":         types.SimpleMonitorHealth,
 		},
 		"Server": {

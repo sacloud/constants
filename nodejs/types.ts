@@ -44,6 +44,7 @@ export interface OSTypeQueries {
     FreeBSD:                             AlmaLinux[];
     K3OS:                                AlmaLinux[];
     Kusanagi:                            AlmaLinux[];
+    MiracleLinux:                        AlmaLinux[];
     RancherOS:                           AlmaLinux[];
     RockyLinux:                          AlmaLinux[];
     Ubuntu:                              AlmaLinux[];
@@ -94,6 +95,7 @@ export interface OSTypes {
     FreeBSD:                             string;
     K3OS:                                string;
     Kusanagi:                            string;
+    MiracleLinux:                        string;
     RancherOS:                           string;
     RockyLinux:                          string;
     Ubuntu:                              string;

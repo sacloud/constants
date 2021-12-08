@@ -129,6 +129,17 @@
           ]
         }
       ],
+      "MiracleLinux": [
+        {
+          "Key": "Tags.Name",
+          "Value": [
+            [
+              "current-stable",
+              "distro-miracle"
+            ]
+          ]
+        }
+      ],
       "RancherOS": [
         {
           "Key": "Tags.Name",
@@ -300,12 +311,6 @@
       ],
       "Windows2016SQLServerStandard": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Standard%29"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -316,9 +321,21 @@
               "edition-standard"
             ]
           ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Standard%29"
+          ]
         }
       ],
       "Windows2016SQLServerStandardAll": [
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20%2F%20MS%20Office"
+          ]
+        },
         {
           "Key": "Tags.Name",
           "Value": [
@@ -331,12 +348,6 @@
               "windows-rds",
               "with-office"
             ]
-          ]
-        },
-        {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202016%20for%20MS%20SQL%202016%28Std%29%20with%20RDS%20%2F%20MS%20Office"
           ]
         }
       ],
@@ -416,12 +427,6 @@
       ],
       "Windows2019SQLServer2017Enterprise": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Enterprise%29"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -431,6 +436,12 @@
               "sqlserver-2017",
               "edition-enterprise"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Enterprise%29"
           ]
         }
       ],
@@ -456,12 +467,6 @@
       ],
       "Windows2019SQLServer2017StandardAll": [
         {
-          "Key": "Name",
-          "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20%2F%20MS%20Office"
-          ]
-        },
-        {
           "Key": "Tags.Name",
           "Value": [
             [
@@ -474,15 +479,15 @@
               "with-office"
             ]
           ]
-        }
-      ],
-      "Windows2019SQLServer2017Web": [
+        },
         {
           "Key": "Name",
           "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Std%29%20with%20RDS%20%2F%20MS%20Office"
           ]
-        },
+        }
+      ],
+      "Windows2019SQLServer2017Web": [
         {
           "Key": "Tags.Name",
           "Value": [
@@ -494,15 +499,15 @@
               "edition-web"
             ]
           ]
-        }
-      ],
-      "Windows2019SQLServer2019Enterprise": [
+        },
         {
           "Key": "Name",
           "Value": [
-            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Enterprise%29"
+            "Windows%20Server%202019%20for%20MS%20SQL%202017%28Web%29"
           ]
-        },
+        }
+      ],
+      "Windows2019SQLServer2019Enterprise": [
         {
           "Key": "Tags.Name",
           "Value": [
@@ -513,6 +518,12 @@
               "sqlserver-2019",
               "edition-enterprise"
             ]
+          ]
+        },
+        {
+          "Key": "Name",
+          "Value": [
+            "Windows%20Server%202019%20for%20MS%20SQL%202019%28Enterprise%29"
           ]
         }
       ],
@@ -592,6 +603,7 @@
       "FreeBSD": "freebsd",
       "K3OS": "k3os",
       "Kusanagi": "kusanagi",
+      "MiracleLinux": "miraclelinux",
       "RancherOS": "rancheros",
       "RockyLinux": "rockylinux",
       "Ubuntu": "ubuntu",
@@ -1746,7 +1758,7 @@
     }
   },
   "Meta": {
-    "Version": "2.26.0"
+    "Version": "2.29.0"
   },
   "NFS": {
     "PlanNames": {
@@ -3487,6 +3499,14 @@
         "CPU": 20,
         "MemoryMB": 229376,
         "MemoryGB": 224,
+        "Commitment": "standard",
+        "Zone": "tk1v"
+      },
+      {
+        "Name": "GPUプラン/4Core-56GB-1GPU",
+        "CPU": 4,
+        "MemoryMB": 57344,
+        "MemoryGB": 56,
         "Commitment": "standard",
         "Zone": "tk1v"
       },

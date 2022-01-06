@@ -1,5 +1,5 @@
 #
-# Copyright 2020 The Constants Authors
+# Copyright 2020-2022 The Constants Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ VERSION ?= dev
 
 # constants
 AUTHOR          ?="The Constants Authors"
-COPYRIGHT_YEAR  ?="2020-2021"
+COPYRIGHT_YEAR  ?="2020-2022"
 COPYRIGHT_FILES ?=$$(find . -name "*.go" -print | grep -v "/vendor/")
 
 default: all

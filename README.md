@@ -49,7 +49,7 @@ See [constants.json](constants.json) for full constants.
 
 ## License
 
-  `libsacloud` Copyright (C) 2016-2021 The Libsacloud Authors.
+  `constants` Copyright (C) 2020-2022 The Constants Authors.
 
   This project is published under [Apache 2.0 License](LICENSE).
 
